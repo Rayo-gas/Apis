@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="JWT" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Infraestructure\" />
+    <None Remove="Infraestructure\Rest\" />
+    <None Remove="Infraestructure\Controllers\" />
+    <None Remove="Domain\" />
+    <None Remove="Application\" />
+    <None Remove="Domain\DTOS\" />
+    <None Remove="Application\Vehicles\" />
+    <None Remove="Infraestructure\Rest\Implementation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infraestructure\Rest\" />
+    <Folder Include="Application\" />
+    <Folder Include="Application\Vehicles\" />
+    <Folder Include="Infraestructure\Rest\Implementation\" />
+  </ItemGroup>
+</Project>

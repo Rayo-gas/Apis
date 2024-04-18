@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace cloudfleet.Controllers;
+namespace cloudfleet.Infraestructure.Controllers;
 
 [ApiController]
 [Route("[controller]")]
