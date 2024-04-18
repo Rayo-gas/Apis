@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloudfleet", "cloudfleet\cloudfleet.csproj", "{2E68829A-6B22-4E68-B7D0-156EF9341645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E68829A-6B22-4E68-B7D0-156EF9341645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E68829A-6B22-4E68-B7D0-156EF9341645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E68829A-6B22-4E68-B7D0-156EF9341645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E68829A-6B22-4E68-B7D0-156EF9341645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {866C04F1-3222-4C69-942F-C06E56FF657B}
+	EndGlobalSection
+EndGlobal
