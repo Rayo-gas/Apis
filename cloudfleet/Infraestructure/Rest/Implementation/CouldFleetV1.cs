@@ -186,7 +186,6 @@ namespace cloudfleet.Infraestructure.Rest.Implementation
             while (status != HttpStatusCode.NotFound.ToString());
             Console.WriteLine(fecha.Year + "-" + fecha.Month + "-" + fecha.Day);
             return responseList;
-
         }
     
     }
